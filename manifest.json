@@ -2,8 +2,8 @@
     "manifest_version": 3,
     "name": "AutoRefresh",
     "version": "1.0",
-    "description": "Description of your extension",
-    "permissions": [],
+    "description": "Automatically refreshes a webpage at specified intervals.",
+    "permissions": ["tabs"],
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
@@ -11,5 +11,8 @@
             "48": "icons8-refresh-48.png",
             "128": "icons8-refresh-128.png"
         }
+    },
+    "background": {
+        "service_worker": "background.js"
     }
 }
