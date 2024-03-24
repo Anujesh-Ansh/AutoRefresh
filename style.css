@@ -2,32 +2,49 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 300px;
     padding: 20px;
-    background-color: #f2f2f2;
-    color: #333;
+    background-color: #F8EDD1;
+    color: #6D6875;
     text-align: center;
+    border-radius: 10px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 20px;
 }
 
 label {
     display: block;
-    margin-bottom: 8px;
-    font-size: 14px;
-    color: #555;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #6D6875;
 }
 
-input[type="text"],
-input[type="number"] {
+input[type="range"] {
     width: calc(100% - 24px);
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 14px;
+    margin: 0 auto;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #6D6875, #F67280);
+    outline: none;
+}
+
+#intervalValue {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #6D6875;
 }
 
 button {
@@ -35,14 +52,14 @@ button {
     padding: 12px 24px;
     margin: 0 5px;
     border: none;
-    border-radius: 4px;
-    background-color: #4CAF50;
+    border-radius: 6px;
+    background-color: #F67280;
     color: white;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #FF8C9A;
 }
