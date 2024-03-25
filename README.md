@@ -26,7 +26,7 @@ Welcome to AutoRefresh, the Chrome extension that takes the hassle out of manual
    - To stop automatic refresh, simply click the "Stop" button.
 
 ## Example Images
-<div style="text-align:center;">
+<div align="center"> 
     <img src="https://github.com/Anujesh-Ansh/AutoRefresh/assets/110138469/6cf0724f-db7b-46a3-a1ca-28f402d1ea08" alt="AutoRefresh Demo GIF">
 </div>
 
