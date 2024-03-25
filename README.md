@@ -35,10 +35,6 @@ Welcome to AutoRefresh, the Chrome extension that takes the hassle out of manual
 
 Found a bug or have a feature request? We'd love to hear from you! Open an issue on our [GitHub repository](https://github.com/Anujesh-Ansh/AutoRefresh/issues) and let us know how we can improve AutoRefresh.
 
-## License
-
-This project is licensed under the MIT License. Feel free to fork, modify, and distribute the code to suit your needs. Happy refreshing! 🌟
-
 ---
 
 Thank you for choosing AutoRefresh! Say goodbye to manual page refreshing and hello to effortless browsing. Let's keep your web content up to date, one refresh at a time! 🌐💨
